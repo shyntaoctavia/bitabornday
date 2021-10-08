@@ -124,7 +124,7 @@ $('document').ready(function(){
 		});
 	});	
 
-	/*$('#cake_fadein').click(function(){
+	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
@@ -136,7 +136,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').fadeIn('slow');
 		});
-	});*/
+	});
 
 		
 	$('#wish_message').click(function(){
